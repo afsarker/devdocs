@@ -1,9 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.1.1)
+    activesupport (5.2.8.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     backports (3.8.0)
@@ -17,7 +17,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.10)
     daemons (1.2.4)
     erubi (1.6.0)
     erubis (2.7.0)
@@ -30,7 +30,8 @@ GEM
     html-pipeline (2.5.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    i18n (0.8.1)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
     method_source (0.8.2)
     mini_portile2 (2.1.0)
     minitest (5.10.2)
@@ -87,7 +88,7 @@ GEM
     tty-which (0.3.0)
     typhoeus (1.1.2)
       ethon (>= 0.9.0)
-    tzinfo (1.2.3)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
@@ -103,7 +104,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport (~> 5.0)
+  activesupport (~> 5.2)
   better_errors
   browser
   coffee-script
